@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB, #5DADE2);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            color: #fff;
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-size: 1.3em;
+            margin: 20px 0;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            background: linear-gradient(to right, #4ECDC4, #87CEEB);
+            padding: 15px 40px;
+            border-radius: 50px;
+            margin: 15px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        a:hover {
+            background: linear-gradient(to right, #3498DB, #5DADE2);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to User Authentication</h1>
+        <p>Secure Login & Registration System</p>
+        <p><a href="/login">Login</a></p>
+        <p><a href="/register">Register</a></p>
+    </div>
+</body>
+</html>
